@@ -378,6 +378,22 @@ packages:
     resolution: {integrity: sha512-KgAxQ0DxpNOq1rG2t5cgTgShJFGSuU7XO45cqC+1NVOuZnP6tlgZRuSYOfNupGkHID0o3cJOsw4DVeJpMovcGw==}
     engines: {node: '>=20.9.0'}
 
+  '@img/sharp-linux-x64@0.35.3': {}
+
+  '@img/sharp-linuxmusl-arm64@0.35.3': {}
+
+  '@img/sharp-linuxmusl-x64@0.35.3': {}
+
+  '@img/sharp-wasm32@0.35.3': {}
+
+  '@img/sharp-webcontainers-wasm32@0.35.3': {}
+
+  '@img/sharp-win32-arm64@0.35.3': {}
+
+  '@img/sharp-win32-ia32@0.35.3': {}
+
+  '@img/sharp-win32-x64@0.35.3': {}
+
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha512-2kkt/7niJ6MgEPxF0bYdQ6etZaA+fQvDcLKckhy1yIQOzaoKjBBjSj63/aLVjYE3qhRt5dvM+uUyfCg6UKCBbA==}
 
