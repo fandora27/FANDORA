@@ -2,8 +2,6 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [main]
-    paths:
-      - '**/*'
   workflow_dispatch:
 
 jobs:
@@ -41,5 +39,6 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./out
-          destination_branch: gh-pages
+          publish_branch: gh-pages
+          force_orphan: true
           keep_files: false
